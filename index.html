@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sika-noppapeli</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main-container">
+
+        <h1>Sika-noppapeli</h1>
+        <br>
+        <h2>Pelin tiedot</h2>
+
+        <div class="game-info" id="gameContainer">
+
+            <div>
+            <input type="number" id="playerCount" class="player-count" 
+                placeholder="Pelaajien määrä" min="2" max="10">
+            <input type="number" id="diceCount" class="dice-count" 
+                placeholder="Noppien määrä" min="1" max="2">
+            </div>
+            <input type="number" id="winningScore" class="winning-score" 
+                placeholder="Pisteet voittoon" min="10" max="1000">
+            
+            <br>
+            
+            <button id="addPlayersButton" class="add-players-button">Lisää pelaajat</button>
+
+            <br>
+
+            <div id="playersContainer" class="players-container">
+            </div>
+            
+            
+
+        </div>
+
+        <div class="start-game-container" id="startGameContainer">
+            <button id="startGameButton" class="start-game-button">Aloita peli</button>
+        </div>
+
+
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

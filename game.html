@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sika-noppapeli</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body class="game-body">
+
+    <div id="overlay" class="overlay" hidden>
+        <div class="overlay-content">
+            <h2>Game over!</h2>
+            <p id="winnerText">Player  wins!</p>
+            <button id="closeOverlay">Continue</button>
+        </div>
+    </div>
+
+    <h1>Roll the dice</h1>
+
+    <div class="dice-container" id="diceContainer">
+        
+    </div>
+
+    <div class="end-turn-container" id="endTurnContainer">
+        <button id="endTurnButton" class="end-turn-button">Lopeta kierros</button>
+    </div>
+
+    <div class="game-container" id="gameContainer">
+        
+    </div>
+
+    <button id="toLobby">Takaisin etusivulle</button>
+    
+    <script src="game.js"></script>
+</body>
+</html>

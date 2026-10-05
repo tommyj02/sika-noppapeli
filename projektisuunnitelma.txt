@@ -1,0 +1,3 @@
+Projektisuunnitelma sikanoppapelille
+
+Aion tehdä siten, että index.html on etusivu, jolla pelaajat kirjoittavat pelaajien määrän sekä nimensä, noppien määrän sekä pisteiden määrän voittoa varten. Tiedot siirretään seuraavalle sivulle (game.html) käyttämällä sessionStorage ominaisuutta. Nopan luvun heittämisen toteutan käyttämällä Math.Random funktiota. Teen nopalle "heittoanimaation" tekemällä siitä suuremman ja tekemällä koon muutoksesta ns. "smoothin" käyttämällä CSS transition ease-in ja ease-out ominaisuuksia.
